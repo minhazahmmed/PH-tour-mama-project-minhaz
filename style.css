@@ -212,6 +212,8 @@ margin-bottom: 60px;
         width:87.5%;
   margin:0px auto 120px auto; 
   text-align: center;
+ 
+  
 }
 
 .reviews-container{
@@ -220,6 +222,8 @@ margin-bottom: 60px;
     margin-bottom: 60px;
     border-radius: 16px;
     border: 1px solid #0E0E0E15;
+
+  
 
 }
 
@@ -237,8 +241,8 @@ margin-bottom: 60px;
 
 .name-and-designation{
  
-    margin-left: 350px;
-    /* height: 100px; */
+text-align: center;
+margin-left:400px;
     
    
 }
@@ -255,6 +259,7 @@ margin-bottom: 60px;
     font-size:16px ;
     font-weight: regular;
     line-height: 24px;
+   
 }
 
 
@@ -265,6 +270,9 @@ margin-bottom: 60px;
     justify-content: space-between;
    align-items: start;
  
+  text-align: center;
+  
+
     
 }
 .name-with-star img{
