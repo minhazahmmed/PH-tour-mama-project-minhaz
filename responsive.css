@@ -4,7 +4,13 @@
     font-size: 48px;
   
     }
+ .first-banner{
+   
+    margin:80px auto 100px auto;
+ 
 
+   
+}
 
 
 .service-image-container{
@@ -73,6 +79,12 @@ margin-left: 60px;
   
    flex-direction: column-reverse;
    text-align: center;
+       
+   margin:44px auto 100px auto;
+  
+    border-radius: 30px;
+   
+
    }
 
  .element-container{
@@ -152,9 +164,20 @@ footer{
 }
 .credit{
     margin-left: 30px;
+    font-size: 14px;
 }
+
 .instagram{
     margin-right: 0px;
+    height: 25px;
+}
+.facebook{
+    height: 25px;
+    margin-right: 10px ;
+}
+.twitter{
+    height: 25px;
+     margin-right: 10px ;
 }
 
 }
@@ -169,13 +192,23 @@ footer{
     font-size: 36px;
   
     }
-    .btn{
-padding:14px 30px;
+    .first-banner{
+   margin:44px auto 100px auto;
+  
+    border-radius: 20px;
+   
 }
+    .btn-main{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    
+        
+    }
+   #btn-1{
+    margin-bottom: 20px;
+   }
 
-#btn-1{
-    padding:14px 30px;
-}
  
     .image-container{
     width: 100%;

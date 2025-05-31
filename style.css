@@ -253,15 +253,6 @@ margin-bottom: 60px;
 }
 
 
-
-/* .name-and-designation{
- 
-text-align: center;
-margin-left:550px; 
-max-width: 100%;
-    } */
-
-
 .name-and-image h3{
     margin-bottom: 7px;
     font-size: 20px;
@@ -279,16 +270,6 @@ max-width: 100%;
    
 }
 
-/* .name-and-image{
- display: flex;
-  justify-content: center;  
-  align-items: center;
-  gap: 500px; 
-
- .name-and-image h3{
-    text-align: center;
-  
-} */
 
 .name-and-image {
   position: relative;
@@ -319,21 +300,6 @@ max-width: 100%;
     
 }
 
-/* .name-and-image img{
-max-height: auto;
-
-opacity: 50%;
-
-} */
-
-/* .name-with-star img{
-     opacity: 50%;
-    height:28px;
-    width: 270.77px; 
-    width:210px;
-    
-
-} */
 
 footer{
     display: flex;
