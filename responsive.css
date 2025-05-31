@@ -1,15 +1,264 @@
-/* Laptop screen */
+/* Laptop screen (upto 1025px) */
 @media screen and (max-width:1200px) {
-    
+    .element-container h1{
+    font-size: 48px;
+  
+    }
+
+
+
+.service-image-container{
+   gap: 40px;
+
+   
+}
+.card{
+    height:420px;
+    max-width: 100%;
+}
+.card h3{
+    font-size: 24px;
+   
+
+    }
+    .card p{
+  
+    font-size: 16px;
+ 
+}
+.card img{
+   width:40%; 
+}
+.text-container h2{
+      font-size: 38px;
+   }
+
+.china-wall-img img{
+height: 100%;
+object-fit: cover;
+
+}
+.facebook{
+  
+
 }
 
-/* Tablet screen */
+.instagram{
+
+padding:5px;
+
+}
+
+.twitter{
+
+padding:7px;
+
+}
+.footer-image{
+   
+    margin-right:20px;
+    align-items: center;
+   
+}
+.credit{
+font-size: 15px;
+margin-left: 60px;
+}
+
+}
+
+/* Tablet screen (upto 641px)*/
 @media screen and (max-width:1024px) {
-    
+.first-banner{
+  
+   flex-direction: column-reverse;
+   text-align: center;
+   }
+
+ .element-container{
+    width:100%;
+}
+.element-container h1{
+    font-size: 45px;
+}
+.element-container p{
+    font-size: 16px;
+}
+.image-container{
+    width: 100%;
+}
+
+.text-container{
+   text-align: center;
+ margin:auto;
+   
+}
+
+   .text-container h2 {
+    font-size: 32px;
+   }
+   .text-container h3{
+    font-size: 18px;
+   }
+.service-image-container{
+    flex-direction: column;
+    width: 100%;
+
+   
+}
+.card img{
+   width:20%; 
+}
+.spot-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.china-wall-img{
+    width: 100%;
+}
+
+.spot-text-container{
+    width: 100%;
 }
 
 
-/* Mobile screen */
-@media screen  and (max-width:640px) {
+.country-name h2{
+    font-size: 20px;
+    padding: 35px;
+    margin-bottom: 40px;
+}
+   
+.paragraph{
+   
+    margin-bottom: 40px;
     
+    font-size: 15px;
+   
+}
+.name-and-image h3 {
+    font-size: 18px;
+}
+.name-and-designation p{
+    font-size: 15px;
+}
+
+
+.name-and-image img{
+height: 18px;
+}
+footer{
+    padding:20px 17px;
+}
+.credit{
+    margin-left: 30px;
+}
+.instagram{
+    margin-right: 0px;
+}
+
+}
+
+
+/* Mobile screen (upto 425px) */
+@media screen  and (max-width:640px) {
+    .first-banner{
+        text-align: center;
+    }
+     .element-container h1{
+    font-size: 36px;
+  
+    }
+    .image-container{
+    width: 100%;
+}
+.text-container{
+    margin-bottom: auto;
+}
+.text-container h2{
+    font-size: 26px;
+}
+.card{
+    height:360px;
+    max-width: 100%;
+}
+.china-wall-img{
+    width: 100%;
+}
+
+.spot-text-container{
+    width: 100%;
+}
+.spot-container{
+   
+flex-direction: column;
+text-align: center;
+   
+   }
+   .spot-text h3{
+    font-size: 27px;
+   
+}
+.country-name{
+    flex-direction: column;
+
+}
+.country-name h2{
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.paragraph{
+   
+    margin-bottom: 30px;
+    font-size: 12px;
+   
+}
+.name-and-image h3 {
+    font-size: 15px;
+}
+.name-and-designation p{
+    font-size: 12px;
+}
+
+
+.name-and-image img{
+height: 12px;
+margin-top: 4px;
+}
+
+footer{
+  flex-direction: column-reverse;
+  text-align: center;
+
+   
+}
+.footer-image{
+   
+    margin-right:0px;
+    align-items: center;
+    margin-bottom:30px;
+   
+}
+.credit{
+    margin-left: 0px;
+    font-size: 13px;
+}
+
+.facebook{
+ height: 25px;
+ margin-right: 20px;
+
+}
+.twitter{
+height: 25px;
+ margin-right: 20px;
+
+}
+
+.instagram{
+height: 25px;
+
+}
+
 }
