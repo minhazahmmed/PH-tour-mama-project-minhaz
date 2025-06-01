@@ -1,4 +1,4 @@
-/* Laptop screen (upto 1025px) */
+/* Laptop screen (from 1025px to 1200px) */
 @media screen and (max-width:1200px) {
     .element-container h1{
     font-size: 48px;
@@ -8,16 +8,13 @@
    
     margin:80px auto 100px auto;
  
-
-   
 }
-
 
 .service-image-container{
    gap: 40px;
 
-   
 }
+
 .card{
     height:420px;
     max-width: 100%;
@@ -73,7 +70,7 @@ margin-left: 60px;
 
 }
 
-/* Tablet screen (upto 641px)*/
+/* Tablet screen (from 641px to 1024px)*/
 @media screen and (max-width:1024px) {
 .first-banner{
   
@@ -183,7 +180,7 @@ footer{
 }
 
 
-/* Mobile screen (upto 425px) */
+/* Mobile screen (from 384px to 640px) */
 @media screen  and (max-width:640px) {
     .first-banner{
         text-align: center;
